@@ -1,0 +1,29 @@
+{
+  "name": "aniquiz_server",
+  "version": "0.0.1",
+  "description": "Serverside for AniQuiz project. This module will be used both in quiz video generator and live version of quizes.",
+  "main": "main.ts",
+  "repository": "git@homelab.local:/hdd/storage/git/AniQuiz_Server.git",
+  "author": "Filip 'Filomaster' Majorek",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/main.js",
+    "compile": "tsc && node build/main.js",
+    "documentation": "typedoc --entryPointStrategy expand ./src"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^17.0.0",
+    "@types/supports-color": "^8.1.1",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.1.2",
+    "node-fetch": "^3.1.0",
+    "node-fetch-commonjs": "^3.1.1",
+    "supports-color": "^8.1.1",
+    "typedoc": "^0.22.10"
+  }
+}

@@ -1,0 +1,13 @@
+# Old build and docs
+docs/
+build/
+log/
+# Editor configuration, can ignore 
+.vscode/
+.idea/
+# Will be created automatically installing dependencies
+node_modules/
+yarn.lock
+package-lock.json
+# we don't push API keys on git this time
+.env 
