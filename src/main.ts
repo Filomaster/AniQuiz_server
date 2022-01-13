@@ -1,5 +1,5 @@
-import MalWrapper from './classes/MalWrapper';
-import { FiLogger, colors, logLvl } from './classes/FiLogger';
+import MalWrapper from './animeProcessing/components/MalWrapper';
+import { FiLogger, colors, logLvl } from './utils/FiLogger';
 
 const log: FiLogger = FiLogger.getInstance();
 
